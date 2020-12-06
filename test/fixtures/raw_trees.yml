@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  GEO_ID: 1
+  X: 1.5
+  'Y': 1.5
+  STRUCTID: 1
+  ADDRESS: 1
+  name: MyString
+  DBH_TRUNK: 1
+  TREE_POSIT: 1
+  COMMON_NAM: MyString
+  BOTANICAL_: MyString
+  geometry: 
+
+two:
+  GEO_ID: 1
+  X: 1.5
+  'Y': 1.5
+  STRUCTID: 1
+  ADDRESS: 1
+  name: MyString
+  DBH_TRUNK: 1
+  TREE_POSIT: 1
+  COMMON_NAM: MyString
+  BOTANICAL_: MyString
+  geometry: 

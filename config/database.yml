@@ -1,0 +1,47 @@
+# SQLite. Versions 3.8.0 and up are supported.
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+
+development:
+    adapter: postgis
+    database: kyle
+    host: localhost
+
+
+    production:
+    adapter: postgis
+    encoding: unicode
+    database: postgres
+    username: kyle 
+    password: 
+    # timeout: 100000
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+# development:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: postgres
+#   pool: 5
+#   username: myapp
+#   password: password1
+
+# test:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: myapp_test
+#   pool: 5
+#   username: myapp
+#   password: password1
+
+# production:
+#     adapter: postgis
+#     database: kyle
+#     encoding: unicode
+#     timeout: 100000
+    
+#   <<: *default
+#   database: db/production.sqlite3

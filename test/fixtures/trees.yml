@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  common_name: MyString
+  botanical_name: MyString
+  dbh_trunk: 1
+  address: 1
+  name: MyString
+  tree_posit: 1
+  lat: 1.5
+  long: 1.5
+  type: one
+  diameter: one
+  location: one
+
+two:
+  common_name: MyString
+  botanical_name: MyString
+  dbh_trunk: 1
+  address: 1
+  name: MyString
+  tree_posit: 1
+  lat: 1.5
+  long: 1.5
+  type: two
+  diameter: two
+  location: two

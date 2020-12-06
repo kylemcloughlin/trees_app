@@ -1,0 +1,2 @@
+class RawTree < ApplicationRecord
+end
