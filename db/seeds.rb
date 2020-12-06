@@ -16,7 +16,6 @@ ty = Type.destroy_all
 lo = Location.destroy_all
 
 
-
 counter = 0
 raw.each do |x|
   
