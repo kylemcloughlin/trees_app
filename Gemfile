@@ -21,6 +21,8 @@ gem "activerecord-postgis-adapter"
 # gem 'image_processing', '~> 1.2'
 gem "rgeo"
 gem "rgeo-geojson"
+gem "aws-sdk", "~> 2"
+gem 'env'
 # gem "rgeo-shapefile"
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
